@@ -9,7 +9,7 @@ or having to do this in the middle of other tasks.
 import processing
 
 # Change with your need
-name = 'PARCEL'
+name = 'layerName'
 expression = ''' 
             "field1" > 10_000 and 
             "field2" != 'something' and 

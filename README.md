@@ -20,7 +20,7 @@ Snippets are under the `snippets` folder, the code should only be run under QGIS
 ### Prerequisites
 
 * [QGIS](https://qgis.org/en/site/forusers/download.html) --version 3.26 Buenos Aires
-* [python](https://www.python.org/) --version 3.10.2
+* [python](https://www.python.org/) *--version 3.7 or above*
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -34,8 +34,8 @@ git clone https://github.com/Cookie755233/PyQGIS-Snippets.git
 ```
 
 1. Select the python file under `snippets` that suits your current workflow, replace a few variable that runs on your local machine.
-2. QGIS -> Python Console -> Open Script: select the script you're using.
-3. Hit Run
+2. QGIS -> Python Console -> Open Script : select the script you're using.
+3. Hit run and enjoy! 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -63,6 +63,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 ## Contact
 
 Email: w.cookie755233@gmail.com
+
 Project Link: [https://github.com/Cookie755233/PyQGIS-Snippets](https://github.com/Cookie755233/PyQGIS-Snippets)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

@@ -1,9 +1,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://i.imgur.com/nSTGUPq.jpg)
+![demo picture](https://i.imgur.com/nSTGUPq.jpg)
 
-We created this repository to help users simplify the repetitive tasks, that may take hours, sometimes days to complete manually. The project is all about `frequently used` snippets in our day-to-day PyQGIS workflow. For complete documentation, pleace refer to the official [PyQGIS Documentation](https://github.com/qgis/QGIS-Documentation).
+We created this repository to help users simplify the repetitive tasks, that may take hours, sometimes days to complete manually. The project is all about *frequently used* snippets in our day-to-day PyQGIS workflow. For complete documentation, pleace refer to the official [PyQGIS Documentation](https://github.com/qgis/QGIS-Documentation).
 
 Of course, not all templates would serve all project since your needs may vary, so we'll possibly keep update more from time to time. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all who have contributed to expanding the snippets!
  

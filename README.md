@@ -19,8 +19,8 @@ Snippets are under the `snippets` folder, the code should only be run under QGIS
 
 ### Prerequisites
 
-* [QGIS](https://qgis.org/en/site/forusers/download.html) --version 3.26 Buenos Aires
-* [python](https://www.python.org/) *--version 3.7 or above*
+* [QGIS](https://qgis.org/en/site/forusers/download.html) *--version 3.26 Buenos Aires*
+* [Python](https://www.python.org/) *--version 3.7 or above*
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

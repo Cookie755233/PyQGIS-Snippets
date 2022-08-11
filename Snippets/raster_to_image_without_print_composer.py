@@ -61,7 +61,7 @@ def png_save(rlayer, extent, outfile_path) -> None:
         rlayer : QgsRasterLayer
         extent : QgsRectangle
         outfile_path: str
-            # should be a full path, i.e., '/Users/user/your_location/outfile_name.png
+            # should be a full path but without filetype suffix, i.e., '/Users/user/your_location/outfile_name
                        
     ------------------------------------
     OUTPUT:

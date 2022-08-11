@@ -2,7 +2,7 @@
 ### MAP ALL LAYERS WITHIN DIRECTORY HIERARCHICALLY ###
 
 Add all desired data type(i.e., *.shp, *.gpkg, etc.) within folder to the working canvas,
-while keeping the correct data hierarchy.
+while keeping the correct data hierarchy. 
 '''
 
 
@@ -17,6 +17,9 @@ ENCODING = 'utf-8'
 
 
 def add_layer(item_path, parent):
+    '''
+    Add layer to QGIS and locate it under current node.
+    '''
     if item_path.endswith('shp') or item_path.endswith('kml') or item_path.endswith('gpkg'): # You can modify this to your desired format only
         # Load Layer
         layer_name = re.search(r'(.*)\.[a-zA-Z]+',  # remove the format type 
@@ -40,6 +43,9 @@ def add_layer(item_path, parent):
 
 
 def recur(path, root):
+    '''
+    Recursively find folder/files and create group & map layers onto QGIS.
+    '''
     if os.path.isdir(path):
         # Create group
         parent_name = os.path.basename(path)

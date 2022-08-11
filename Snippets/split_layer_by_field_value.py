@@ -27,10 +27,12 @@ FIELD_NAME = 'attrName'   # name of the field you're splitting
 layer = QgsProject.instance().mapLayersByName(TARGET_LAYER)[0]      # Select the target layer
 group = QgsProject.instance().layerTreeRoot().addGroup(GROUP_NAME)  # Create a container group for outputs
 
-unique_values_of_field = layer.uniqueValues( layer.fields().indexOf('FIELD_NAME') )
+unique_values_of_field = layer.uniqueValues( layer.fields().indexOf(FIELD_NAME) )
 
 for val in unique_values_of_field:
-    expression = f'{FIELD_NAME} = {val}'                     # Have as many expression as you want
+    expression = f"""
+                  "{FIELD_NAME}" = '{val}'
+                  """                     # Have as many expression as you want
     
     selected = processing.run(
     "qgis:extractbyexpression", {

@@ -9,12 +9,7 @@ def adjust_symbology(rlayer,
     INPUT:
         rlayer : QgsRasterLayer
         colorDict: dict 
-            # sample: {'5':'#d7191c',
-                       '4':'#fdae61',
-                       '3':'#ffffbf',
-                       '2':'#abdda4',
-                       '1':'#2b83ba'}
-                       
+
     ------------------------------------
     OUTPUT:
         create canvas components -> None 
